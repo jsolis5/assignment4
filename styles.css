@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+h1,
+h2 {
+    color: rgb(10, 0, 255);
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 100em
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/logo7.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/*.pics img {
+    padding: lem;
+    margin: lem;
+    height: auto;
+    width: 150px;
+    margin: 0;
+    overflow: hidden;
+    opacity: 0.7;
+    transform: scale(1/15);
+    transition: transform 0.5s, opacity 0.5s,0;
+}*/
+.somename {
+    color: red;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+#someone {
+    color: white;
+    font-family: cursive;
+    font-size: 2.1em
+}
+
+h1,
+h2,
+h3 {
+    color: red;
+    font-size: 2.1em;
+    font-stretch: condensed;
+}
+
+li {
+    color: white;
+    font-size: 2.2em;
+    font-family: monospace;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between
+}
+
+@media screen and (max-width: 50rem) {
+
+    header,
+    main,
+    footer {
+        flex-direction: column
+    }
+}
